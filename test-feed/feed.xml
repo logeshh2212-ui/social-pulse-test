@@ -6,6 +6,13 @@
     <title>Social Pulse Test Feed</title>
     <link>https://github.com/logeshh2212-ui/social-pulse-test</link>
     <description>Fake blog used to test the social media post monitor.</description>
+    <item>
+      <title>Test post 2</title>
+      <link>https://github.com/logeshh2212-ui/social-pulse-test#test-post-2</link>
+      <guid isPermaLink="false">social-pulse-test-post-2</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0530</pubDate>
+      <description>Second test post. This one SHOULD appear in #social-feed-test.</description>
+    </item>
 
     <item>
       <title>Test post 1</title>
