@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Test RSS feed we control. Add a new <item> at the top and push to GitHub
+     to simulate a new blog post. Each <guid> must be unique. -->
+<rss version="2.0">
+  <channel>
+    <title>Social Pulse Test Feed</title>
+    <link>https://github.com/logeshh2212-ui/social-pulse-test</link>
+    <description>Fake blog used to test the social media post monitor.</description>
+
+    <item>
+      <title>Test post 1</title>
+      <link>https://github.com/logeshh2212-ui/social-pulse-test#test-post-1</link>
+      <guid isPermaLink="false">social-pulse-test-post-1</guid>
+      <pubDate>Fri, 20 Nov 2026 10:00:00 +0530</pubDate>
+      <description>First test post. Saved as the baseline, so it should NOT appear in Slack.</description>
+    </item>
+  </channel>
+</rss>
